@@ -10,7 +10,7 @@
   touch   新建文件 (touch test.txt)
   cat     查看文件 (cat test.txt)
   echo    标准输出 (echo 'hello'、echo 'line 1' > test.txt、echo '' > test.txt、echo 'line 2' >> test.txt)
-  grep    匹配字符 (grep -n 关键词 文件名、grep -rn 关键词 目录名)
+  grep    匹配字符 (grep -n 关键词 文件名、grep -Irn 关键词 目录名)
   nl      显示行号 (nl 文件名)
   cp      文件复制 (cp test test_backup、cp -r * /path/to/dir)
   mv      文件移动|重新命名 (mv 原文件名 新文件名 | mv 文件名 /path/to/dir)
@@ -28,7 +28,7 @@
 符号指令：
   *       所有文件 (ls *)
   *.txt   所有 txt 文件 (以此类推查看 png、py、sh......)
-  $()     调用变量 (echo $(SHELL))
+  $()     调用变量 (echo $(date)、text='Hello'、echo $text)
   &       后台运行 (brew install vim &)
   >       输出重定向 (echo 'hello' > new.txt、echo '' > new.txt)
   >>      输出追加内容 (echo 'hello' >> new.txt)
@@ -42,3 +42,5 @@
   control+E 行尾
   control+D 退出
   control+C 停止
+  
+   													   制图软件：carbon.now.sh 作者：@JamesHopbourn 2019/12/20

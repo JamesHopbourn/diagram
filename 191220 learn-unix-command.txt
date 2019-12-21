@@ -5,6 +5,7 @@
   cd      切换路径 (cd ..、cd -、cd ~、cd /path/to/dir)
   clear   历史清屏 (clear)
   tree    树状显示 (tree -N /path/to/dir)
+  
 
 文件处理：
   touch   新建文件 (touch test.txt)
@@ -24,6 +25,7 @@
   rm      删除文件|删除目录 (rm 文件名 | rm -rf 目录名)
   chmod   更改权限 (赋予文件可执行权限：chmod +x 文件名)
   history 历史命令 (history、history | awk '{print $2}' | sort | uniq -c | sort -k1,1nr | head -10)
+  
 
 符号指令：
   *       所有文件 (ls *)
@@ -36,6 +38,7 @@
   |       管道符号 (前面命令执行结果输入后面命令 history | grep cat)
   &&      条件执行 (前面命令执行成功执行后面命令 vim test.py && python test.py)
   ||      条件执行 (前面命令执行失败执行后面命令 python test.py || vim test.py) 
+  
 
 快捷键：
   control+A 行首
